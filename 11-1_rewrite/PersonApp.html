@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Application</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="person.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<h1>Welcome to the Person Tester application</h1>
+
+<form class="form" name="form">
+    <h1>Enter Employee Information</h1>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname">
+    <span id="fname_error">*</span><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname">
+    <span id="lname_error">*</span><br>
+
+    <label for="email">Email Address:</label>
+    <input type="text" id="email">
+    <span id="email_error">*</span><br>
+
+    <label for="ssn">SSN:</label>
+    <input type="text" id="ssn">
+    <span id="ssn_error">*</span><br>
+
+    <button type="button" id="employeeButton">Submit</button> <br>
+
+    <label>&nbsp;</label>
+</form>
+
+<form class="form" name="form" id = "something">
+    <h1>Enter Customer Information</h1>
+    <label for="fname2">First Name:</label>
+    <input type="text" id="fname2">
+    <span id="fname_error2">*</span><br>
+
+    <label for="lname2">Last Name:</label>
+    <input type="text" id="lname2">
+    <span id="lname_error2">*</span><br>
+
+    <label for="email2">Email Address:</label>
+    <input type="text" id="email2">
+    <span id="email_error2">*</span><br>
+
+    <label for="custNum">Customer Number:</label>
+    <input type="text" id="custNum">
+    <span id="custNum_error">*</span><br>
+
+    <button type="button" id="customerButton">Submit</button> <br>
+
+
+    <label>&nbsp;</label>
+</form>
+
+<div id="CreatedPerson"></div>
+
+</body>
+</html>
